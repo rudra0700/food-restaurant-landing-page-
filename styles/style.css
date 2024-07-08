@@ -112,3 +112,68 @@
   background: rgba(82, 195, 3, 0.15);
   padding: 5px;
 }
+
+#about-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 1233px;
+  margin: 0 auto;
+}
+.image-section {
+  flex: 1;
+  min-width: 300px;
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+.text-section h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-section p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.text-section h6{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-top: 8px;
+}
+.social-media{
+  text-align: center;
+  margin-top: 8px;
+}
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
